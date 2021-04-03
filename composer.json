@@ -1,0 +1,7 @@
+{
+    "require": {
+        "google/apiclient": "^2.9",
+        "norkunas/youtube-dl-php": "dev-master",
+        "abraham/twitteroauth": "^2.0"
+    }
+}
