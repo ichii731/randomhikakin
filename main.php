@@ -4,8 +4,8 @@ randomhikakin_system
 Unauthorized use is prohibited. Please contact the author when using it.
 Author:@tomox0115 | https://0115765.com
 */
-// オートローディング(cronsゴリのためフルパスで記述)
-require('/hikakin/vendor/autoload.php');
+// オートローディング
+require('vendor/autoload.php');
 use ParagonIE\ConstantTime\Encoding;
 use Abraham\TwitterOAuth\TwitterOAuth;
 
@@ -16,7 +16,7 @@ $AT = '**********************************************';
 $AS = '*****************************************';
 
 // 動画データベースから情報取得
-$file = "/hikakin/database/hikakin.json";
+$file = "database/hikakin.json";
 $json = file_get_contents($file);
 $json = json_decode($json, true);
 $val = array_rand($json, 1);
