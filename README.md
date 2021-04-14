@@ -5,3 +5,5 @@ This program is that Providing some good images from HikakinTV and Post them on 
 - Developed and Management by **[@tomox0115](https://twitter.com/tomox0115)**
 
 HikakinTv Channel:https://youtube.com/user/HikakinTV
+
+クソほど手順としては簡単なんでオブジェクト指向で書いてないですがお気になさらず…
